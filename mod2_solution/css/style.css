@@ -1,1 +1,21 @@
+div{
+  background-color:skyblue;
+  border:1px solid black;
+  box-size:border-box;
+  padding:0 5px;
+  
+}
+/*This is the mobile media */
 
+@media (max-width:767px){
+
+}
+/*This is the tablet media */
+@media (min-width:768) and (max-width:991px){
+
+}
+
+/*This is the desktop media */
+@media (min-width:992px){
+
+}
