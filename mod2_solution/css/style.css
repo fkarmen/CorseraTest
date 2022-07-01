@@ -1,25 +1,33 @@
 *{
   box-sizing:border-box;
 }
-.color{
-  background-color:rgb(83, 186, 227);
-  border:1px solid rgb(69, 87, 249);
-  padding:0 5px;
-  
+body{
+   background-color: #C4FFFA;
 }
+.color{
+  background-color:#C2E3F5;
+  border:1px solid rgb(69, 87, 249);
+  padding: 1%;
+}
+
 h1{
   width:70%;
   text-align:center;
-  margin:0 auto;
-  background-color:lightblue;
+  margin:50px auto;
+
   
 }
 h2{
-  width:100%;
-  text-align: right;
-  background-color:rgb(64, 33, 149);
+  width:40%;
+  text-align: center;
+  background-color:#318FC4;
   color:white;
-
+  position: relative;
+  top: -25%;
+  right: 0;
+  left: 64%;
+  margin: -4% 0 15px 0;
+  border: 1px solid #1E6790;
 }
 .containter{
   width:100%;
@@ -28,14 +36,15 @@ h2{
 }
 .row{
   width:100%;
+  margin: 0;
 }
+
 /*This is the mobile media */
 
 @media (max-width:767px){
   .col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12{
     float:left;
     border:1px solid rgb(115, 17, 227);
-    
   }
   .col-sm-1{
     width:8.33%;
@@ -71,7 +80,8 @@ h2{
     width:91.66%;
   }
      .col-sm-12{
-    width:100%;
+    width:90%;
+    margin: 2.5% 5%;
   }
 
 }
@@ -80,7 +90,6 @@ h2{
     .col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{
     float:left;
     border:1px solid rgb(65, 24, 119);
-    
   }
   .col-md-1{
     width:8.33%;
@@ -98,7 +107,8 @@ h2{
     width:41.66%;
   }
      .col-md-6{
-    width:50%;
+    width:45%;
+    margin: 2.5%;
   }
      .col-md-7{
     width:58.33%;
@@ -116,7 +126,9 @@ h2{
     width:91.66%;
   }
      .col-md-12{
-    width:100%;
+    width:95%;
+    margin: 0 2.5%;
+
   }
 
 }
@@ -126,7 +138,6 @@ h2{
     .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{
     float:left;
     border:1px solid rgb(35, 24, 154);
-    
   }
   .col-lg-1{
     width:8.33%;
@@ -138,7 +149,8 @@ h2{
     width:25%;
   }
      .col-lg-4{
-    width:33%;
+    width:30%;
+    margin: 1.5%;
   }
      .col-lg-5{
     width:41.66%;
@@ -166,3 +178,4 @@ h2{
   }
 
 }
+
