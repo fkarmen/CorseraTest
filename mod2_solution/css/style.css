@@ -2,8 +2,8 @@
   box-sizing:border-box;
 }
 .color{
-  background-color:skyblue;
-  border:1px solid black;
+  background-color:rgb(83, 186, 227);
+  border:1px solid rgb(69, 87, 249);
   padding:0 5px;
   
 }
@@ -14,11 +14,12 @@ h1{
   background-color:lightblue;
   
 }
-.h2{
-  width:50%;
-  float:right;
-  background-color:red;
+h2{
+  width:100%;
+  text-align: right;
+  background-color:rgb(64, 33, 149);
   color:white;
+
 }
 .containter{
   width:100%;
@@ -33,7 +34,7 @@ h1{
 @media (max-width:767px){
   .col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12{
     float:left;
-    border:1px solid orange;
+    border:1px solid rgb(115, 17, 227);
     
   }
   .col-sm-1{
@@ -78,7 +79,7 @@ h1{
 @media (min-width:768px) and (max-width:991px){
     .col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{
     float:left;
-    border:1px solid orange;
+    border:1px solid rgb(65, 24, 119);
     
   }
   .col-md-1{
@@ -124,7 +125,7 @@ h1{
 @media (min-width:992px){
     .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{
     float:left;
-    border:1px solid orange;
+    border:1px solid rgb(35, 24, 154);
     
   }
   .col-lg-1{
